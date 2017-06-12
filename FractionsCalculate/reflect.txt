@@ -1,0 +1,9 @@
+1. Operator+= needs to return a reference because that reference will save the data.
+In other words, x += y is the same as x= x + y. So, If we do not keep the memory, the x 
+will reset to empty state and the result will be wrong.
+
+2. For our constructor (the one with 2 parameters), we already set denom as 1 with default.
+So, even without input in the denomimator, the program will assume it equal to 1.
+
+3. I have practiced Operators, different types of them. As well as applied them into the workshop.
+I learned how to declare it, why should I return reference when it realted to operator+=. 
